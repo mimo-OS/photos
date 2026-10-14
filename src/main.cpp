@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
 
     // Parse command line arguments (e.g. image file to open)
     QCommandLineParser parser;
-    parser.setApplicationDescription("Cutefish Photos and Image Viewer");
+    parser.setApplicationDescription("mimo OS Photos and Image Viewer");
     parser.addHelpOption();
     parser.addVersionOption();
     parser.addPositionalArgument("file", "Image file to view");
